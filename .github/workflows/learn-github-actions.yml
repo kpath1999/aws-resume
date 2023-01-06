@@ -7,8 +7,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/hello-world-action
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
