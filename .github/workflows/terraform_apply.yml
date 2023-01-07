@@ -16,6 +16,7 @@ jobs:
         AWS_ACCESS_KEY_ID:  ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY:  ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: terraform init -input=false
+      working-directory: ${{ github.workspace }}/terraform
 
     - name: Terrform validation
       run: terraform validate
@@ -25,3 +26,4 @@ jobs:
         AWS_ACCESS_KEY_ID:  ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY:  ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: terraform apply -auto-approve -input=false
+      working-directory: ${{ github.workspace }}/terraform
