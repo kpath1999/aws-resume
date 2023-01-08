@@ -1,4 +1,8 @@
 // Create a role named "hello-lambda"
+// ERROR: failed to create IAM role (hello-lambda)
+// tf-state-role is not authorized to perform => iam:CreateRole on hello-lambda
+// no identity-based policy within tf-state-role allows the iam:CreateRole action
+
 resource "aws_iam_role" "hello_lambda_exec" {
     name = "hello-lambda"
 

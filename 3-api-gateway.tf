@@ -1,3 +1,5 @@
+// ERROR: tf-state role is not allowed to create http api
+
 resource "aws_apigatewayv2_api" "main" {
     name            = "main"    // Name of the API
     protocol_type   = "HTTP"    // API protocol

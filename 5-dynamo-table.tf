@@ -1,3 +1,5 @@
+// ERROR: visitor count table already exists
+
 resource "aws_dynamodb_table" "visits_table" {
     name = "VisitorCount"
     hash_key = "ID"
