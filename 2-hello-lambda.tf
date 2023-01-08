@@ -32,8 +32,8 @@ resource "aws_iam_role_policy_attachment" "hello_dynamo_policy" {
 // Zipping the function code before sending it to S3
 data "archive_file" "lambda_hello" {
     type        = "zip"
-    source_dir  = "../${path.module}/hello"
-    output_path = "../${path.module}/hello.zip"
+    source_dir  = "${path.root}/hello"
+    output_path = "${path.root}/hello.zip"
 }
 
 // Provides an S3 object resource. Takes hello.zip code and stores it in the S3 bucket. output_base64sha256 is exported.
