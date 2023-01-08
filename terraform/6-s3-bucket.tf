@@ -1,4 +1,4 @@
-// S3 bucket names must be unique. Use a random pet generator and append it to the bucket name (e.g: lambda-fitting-alien).
+// S3 bucket names must be unique
 resource "random_pet" "s3_bucket_name" {
     prefix = "s3"       // A string to prefix the name with
     length = 2          // Length (in words) of the pet name
