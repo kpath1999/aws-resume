@@ -5,7 +5,7 @@ The [AWS Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/a
 
 ![Complete architecture diagram](full-architecture.png)
 
-## Backend Infrastructure
+## Building the backend infrastructure
 
 In this README, I will go over how I created the backend for the AWS Resume Challenge. 
 One of the key components of the backend is the API, which triggers each time my website is visited, and returns an updated count.
