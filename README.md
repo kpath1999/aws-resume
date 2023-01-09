@@ -3,7 +3,7 @@
 The AWS Resume Challenge, created by Forrest Brazeal, gave me a hands-on opportunity to build a full-stack web application on AWS. I created a dedicated frontend and backend, integrated the two, and automated the entire development process using IaC and CI/CD best practices.
 
 
-![Landing page](https://github.com/kpath1999/resume-backend/blob/main/website-landing-page.png)
+![Landing page](website-landing-page.png)
 
 
 The ask was deceptively simple: create a personal website that would keep a count of the number of times it’s visited. That was until I read [the steps](https://cloudresumechallenge.dev/docs/the-challenge/aws/) I would have to take to create the website.
@@ -19,7 +19,7 @@ In this README, I will go over how I created the backend. One of its key compone
 3. Every time the function was triggered by my API, it would update the visitor count on my database, which was housed in DynamoDB.
 
 
-![Backend infrastructure](https://github.com/kpath1999/resume-backend/blob/main/images/backend-architecture.png)
+![Backend infrastructure](backend-architecture.png)
 
 
 But this was all done manually on the AWS console. The real fun began when I had to rebuild the entire backend infrastructure with code, using a language I had never encountered before – Terraform. It took me a fair bit of time to wrap my head around IaC, but the effort paid off. Terraform saves a great deal of time by automating the entire infrastructure build process. You can find my Terraform code attached to this repository.
@@ -36,7 +36,7 @@ Despite the occasional struggles, I thoroughly enjoyed the entire learning proce
 Thanks for reading! Please find my frontend repository linked [here](https://github.com/kpath1999/resume-frontend).
 
 
-![Complete architecture diagram](![Complete architecture diagram](https://github.com/kpath1999/resume-backend/blob/main/full-architecture.png))
+![Complete architecture diagram](full-architecture.png)
 
 
 ### Dependencies
