@@ -27,7 +27,7 @@ I had heard of CI/CD before, but never internalized its power until I used GitHu
 And here’s [the landing page](https://kausarpatherya.com)!
 
 
-Despite the occasional struggles, I thoroughly enjoyed the entire learning process. I now have a solid foundational understanding of AWS that wouldn’t have been possible to acquire by passing certifications. I look forward to working on more projects and deepening my understanding.
+Despite the occasional struggles, I thoroughly enjoyed the entire learning process. I now have a solid foundational understanding of AWS that wouldn’t have been possible to acquire by just passing certifications. I look forward to working on more projects and deepening my understanding.
 
 
 Thanks for reading! Please find my frontend repository linked [here](https://github.com/kpath1999/resume-frontend).
